@@ -5,3 +5,7 @@ function getComputerChoice(){
     return computerSelection;
 }
 console.log(getComputerChoice());
+
+function getHumanChoice(){
+    humanInput = prompt("Please enter Rock, Paper, or Scissors");
+}
